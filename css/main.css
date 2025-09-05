@@ -83,7 +83,7 @@ h2 {
 }
 .new .list strong{
     padding: 10px 24px;
-    margin: 40px auto 50px;
+    margin: 20px auto 50px;
     display: block;
     background-color: #74A7AF;
     color: white;
@@ -103,13 +103,17 @@ h2 {
     line-height: 1.5;
     text-align: center;
     margin: 5px 0 20px;
-    font-size: 12px;
 }
 .new .list .item .text h3 {
-    font-size: 12px;
+    font-size: 13px;
 
 }.new .list .item .text p {
+    color: #8d8b8b;
+    font-size: 12px;
     text-decoration: line-through;
+}
+.new .list .item .text span {
+    font-size: 14px;
 }
 .new .list .item .text p,
 .new .list .item .text span {
@@ -132,7 +136,7 @@ h2 {
 }
 .best .list strong{
     padding: 10px 24px;
-    margin: 40px auto 50px;
+    margin: 20px auto 50px;
     display: block;
     background-color: #74A7AF;
     color: white;
@@ -155,10 +159,14 @@ h2 {
     font-size: 12px;
 }
 .best .list .item .text h3 {
-    font-size: 12px;
+    font-size: 13px;
 }
 .best .list .item .text p {
 text-decoration: line-through;
+color: #8d8b8b;
+}
+.best .list .item .text span {
+    font-size: 14px;
 }
 .best .list .item .text p,
 .best .list .item .text span {
@@ -195,6 +203,7 @@ text-decoration: line-through;
 }
 .insta .list .item img {
     width: 32.03%;
+    height: 115px;
     object-fit: cover;
     display: block;
 }
@@ -205,12 +214,12 @@ text-decoration: line-through;
     text-align: center;
 }
 .footer .copyright strong {
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
     margin-bottom: 20px;
 }
 .footer .copyright p {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
     /* letter-spacing: -0.5px; */
     line-height: 1.5;
@@ -235,15 +244,20 @@ text-decoration: line-through;
     
 }
 .footer_list h4 {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 .footer_list .cs {
     line-height: 1.5;
     font-size: 12px;
     width: 50%;
-   
 }
+
+.footer_list .cs strong {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 .footer_list .bank {
     line-height: 1.5;
     font-size: 12px;
@@ -255,11 +269,17 @@ text-decoration: line-through;
     width: 100%;
     margin: 0 auto;
 }
+.footer .bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
 .footer .bottom ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     line-height: 1.5;
 }
@@ -270,7 +290,7 @@ text-decoration: line-through;
 
 
 @media screen and (max-width:395px) {
-    .footer .copyright p {
+    /* .footer .copyright p {
     letter-spacing: -0.5px;
-}
+} */
 }
